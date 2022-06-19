@@ -8,53 +8,108 @@
 
         <table>
             <tr>
-                <th>Enter First Name</th>
-                <td><input type="text"></td>
-                </tr>
-
-            <tr>
-                <th>Enter Last Name</th>
-                <td><input type="text"></td>
+                <th align="right">Enter First Name </th>
+                <td><input type="text" placeholder="First Name"></td>
             </tr>
 
             <tr>
-                <th>Enter DOB</th>
-                <td><input type="date"></td>
+                <th align="right">Enter Last Name</th>
+                <td><input type="text" placeholder="Last Name"></td>
             </tr>
 
             <tr>
-                <th>Select Gender</th>
+                <th align="right">Enter DOB</th>
+                <td><input type="date" placeholder="DOB"></td>
+            </tr>
+
+            <tr>
+                <th align="right">Enter Age</th>
+                <td><input type="number" min="1" max="60" placeholder="Age"></td>
+            </tr>
+
+            <tr>
+                <th align="right">Select Gender</th>
                 <td><input type="radio" name="gender">Male
                     <input type="radio" name="gender">Female</td>
             </tr>
 
             <tr>
-                <th>Enter Mobile Number</th>
-                <td><input type="number"></td>
+                <th align="right">Enter Address</th>
+                <td><textarea name="text" id="number" cols="30" rows="5" placeholder="Enter Full Address"></textarea></td>
             </tr>
 
             <tr>
-                <th>Enter E-mail</th>
-                <td><input type="email"></td>
+                <th align="right">Enter Mobile Number</th>
+                <td><input type="number" placeholder="Mobile Number"></td>
             </tr>
 
             <tr>
-                <th>Create Password</th>
-                <td><input type="password"></td>
+                <th align="right">Enter E-mail</th>
+                <td><input type="email" placeholder="Mail-ID"></td>
             </tr>
 
             <tr>
-                <th>Confirm Password</th>
-                <td><input type="password"></td>
+                <th align="right">Select Course</th>
+                <td><input type="checkbox">JAVA
+                    <input type="checkbox">SQL
+                    <input type="checkbox">Web Technologies
+                    <input type="checkbox">Angular
+                </td>
             </tr>
 
             <tr>
+                <th align="right">Select City</th>
+                <td>
+                <select>
+                    <option>---Select City---</option>
+                    <option>Bangalore</option>
+                    <option>Tumkur</option>
+                    <option>Mysore</option>
+                    <option>Hubli</option>
+                    <option>Belagavi</option>
+                    <option>Kodagu</option>
+                </select>
+            </td>
+            </tr>
+
+            <tr>
+                <th align="right">Upload File</th>
+                <td><input type="file" accept=".pdf"></td>
+            </tr>
+
+            <tr>
+                <th align="right">Audio Instructions</th>
+                <td>
+                <audio controls>
+                    <source src="Audios\Katthi.mp3">
+                </audio>
+            </td>
+            </tr>
+
+            <tr>
+                <th align="right">Create Password</th>
+                <td><input type="password" placeholder="Password"></td>
+            </tr>
+
+            <tr>
+                <th align="right">Confirm Password</th>
+                <td><input type="password" placeholder="Confirm Password"></td>
+            </tr>
+
+            <tr> 
                 <td>
             <button type="submit">Register</button>
             <button type="reset">Reset</button>
             </td>
             </tr>
 
+            <tr>
+                <th>
+                <td>
+            <marquee direction="right" bgcolor="blue" scrollamount="5" > Session will be closed after 10 Minutes  </marquee>
+        </td>
+    </th>
+        </tr>
 
 
 
