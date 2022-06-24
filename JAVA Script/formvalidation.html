@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        
+    </head>
+   
+    <body>
+        <form name="registration">
+<div>
+    <label > Enter Name</label>
+    <input type="text" id="username">
+    <div id="errorusername"></div>
+</div><br>
+
+<div>
+<label> Enter E-mail</label>
+<input type="email" id="email">
+<div id="erroremail"></div>
+</div><br>
+
+<div>
+    <label>Select Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Others
+    <div id="errorgender"></div>
+</div><br>
+
+<label>Select City</label>
+<select name="city">
+    <option value="0">--Select City--</option>
+    <option value="Bangalore">Bengaluru</option>
+    <option value="Mysore">Mysuru</option>
+    <option value="Hubli">Hubballi</option>
+    <option value="Belgaum">Belagavi</option>
+</select>
+<div id="errorcity"></div>
+
+<!--document forname.controlname.checked-->
+<!--document.register.gender.checked-->
+
+
+<button type="button"  onclick="register()">Register</button>
+
+        </form>
+
+        <script src="form1.js"></script>
+       
+    </body>
+    
+</html>
